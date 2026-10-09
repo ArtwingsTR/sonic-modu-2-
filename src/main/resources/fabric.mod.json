@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sonicmod",
+  "version": "${version}",
+  "name": "Sonic Generations",
+  "description": "Sonic Generations: boost, homing attack, Sonic modeli, sesler ve efektler.",
+  "authors": [
+    "You"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.sonic.SonicClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "sonicmod.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "credits": "Sonic modelleri: orijinal model sahiplerine aittir (Sega / model yapimcilari). Kisisel kullanim icin."
+  }
+}

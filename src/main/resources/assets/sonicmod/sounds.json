@@ -1,0 +1,22 @@
+{
+  "boost_start": {
+    "sounds": [
+      "sonicmod:boost_start"
+    ]
+  },
+  "boost_loop": {
+    "sounds": [
+      "sonicmod:boost_loop"
+    ]
+  },
+  "homing_launch": {
+    "sounds": [
+      "sonicmod:homing_launch"
+    ]
+  },
+  "homing_hit": {
+    "sounds": [
+      "sonicmod:homing_hit"
+    ]
+  }
+}
